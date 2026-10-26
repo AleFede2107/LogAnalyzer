@@ -1,0 +1,30 @@
+25/10/26 08:00 [INFO] Evento valido de control al inicio.
+31/02/26 08:10 [INFO] Fecha imposible: febrero no tiene 31 dias.
+29/02/25 08:20 [WARNING] Fecha imposible en un ano no bisiesto.
+25/13/26 08:30 [INFO] Mes fuera de rango.
+00/10/26 08:40 [INFO] Dia fuera de rango.
+2026-10-25 08:50 [INFO] Fecha con formato diferente del requerido.
+5/10/26 09:00 [INFO] Dia con un solo digito.
+25/10/2026 09:10 [INFO] Ano con cuatro digitos.
+25/10/26 24:00 [INFO] Hora fuera de rango.
+25/10/26 12:60 [INFO] Minutos fuera de rango.
+25/10/26 9:15 [INFO] Hora con un solo digito.
+25/10/26 09:30 [DEBUG] Severidad no admitida.
+25/10/26 09:40 [info] Severidad en minusculas.
+25/10/26 09:50 [Warning] Severidad con mayusculas y minusculas.
+25/10/26 10:00 INFO Severidad sin corchetes.
+25/10/26 10:10 [ERROR Falta el corchete de cierre.
+25/10/26 10:20 [] Severidad vacia.
+25/10/26 10:30 [INFO]
+25/10/26 10:40 [ERROR]    
+25/10/26 [INFO] Falta la hora.
+10:50 [WARNING] Falta la fecha.
+25/10/26 11:00 Falta la severidad.
+[INFO] 25/10/26 11:10 Los campos estan en un orden incorrecto.
+25/10/26 11:20 [ERROR] Evento valido: la severidad ERROR no implica formato incorrecto.
+25/10/26 11:30 [INFO] Mensaje valido con varias lineas.
+Esta linea continua el mensaje anterior y no tiene timestamp.
+La siguiente linea esta en blanco intencionalmente.
+
+Esta linea permite comprobar el tratamiento de blancos dentro de un mensaje.
+25/10/26 11:40 [INFO] Evento valido de control al final.
